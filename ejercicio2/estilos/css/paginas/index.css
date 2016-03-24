@@ -1,0 +1,21 @@
+/* line 1, ../../sass/paginas/index.scss */
+.principal {
+  width: 100%;
+}
+/* line 3, ../../sass/paginas/index.scss */
+.principal .menu {
+  display: block;
+}
+/* line 5, ../../sass/paginas/index.scss */
+.principal .menu li {
+  cursor: pointer;
+  list-style: none;
+}
+/* line 8, ../../sass/paginas/index.scss */
+.principal .menu li div {
+  display: none;
+}
+/* line 12, ../../sass/paginas/index.scss */
+.principal .menu li.visible div {
+  display: inline-block;
+}

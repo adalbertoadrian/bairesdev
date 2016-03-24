@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejercicio2</title>
+  <link rel="stylesheet" href="estilos/css/estilos.css">
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+<body>
+  <div class="principal">
+    <ul class="menu">
+      <li>
+        <h3>Lorem ipsum 1</h3>
+        <div>
+          <p>Dolor sit amet</p>
+        </div>
+      </li>
+      <li>
+        <h3>Lorem ipsum 2</h3>
+        <div>
+          <p>Dolor sit amet</p>
+        </div>
+      </li>
+      <li>
+        <h3>Lorem ipsum 3</h3>
+        <div>
+          <p>Dolor sit amet</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <script>
+    $( "li" ).click(function() {
+      $(this, "div").toggleClass("visible");
+    });
+  </script>
+</body>
+</html>
